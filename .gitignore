@@ -1,0 +1,31 @@
+.DS_Store
+.idea/
+.vscode/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Trained artefacts
+*.bin
+*.pkl
+*.pt
+*.tar.gz
+models/
+out-*/
+
+# Dataset caches (raw text + intermediate)
+.mnist-cache/
+data/**/input.txt
+data/**/raw/
+data/**/train.bin
+data/**/val.bin
+data/**/meta.pkl
+
+# Local config overrides
+config/local_*.py
