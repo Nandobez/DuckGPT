@@ -1,0 +1,62 @@
+[
+  {
+    "context": "He picked up a hammer and started",
+    "choices": [
+      " hammering the nail into the wood.",
+      " swimming across the river.",
+      " baking a chocolate cake.",
+      " writing a sonnet about the moon."
+    ],
+    "answer": 0
+  },
+  {
+    "context": "She poured the cereal into a bowl and added",
+    "choices": [
+      " gasoline to make it crunchier.",
+      " milk before sitting down to eat.",
+      " a battery for extra power.",
+      " a brick to add some weight."
+    ],
+    "answer": 1
+  },
+  {
+    "context": "The teacher wrote on the chalkboard and",
+    "choices": [
+      " the chalkboard started cooking.",
+      " a dolphin appeared in the room.",
+      " explained the problem step by step.",
+      " the chalk turned into gold."
+    ],
+    "answer": 2
+  },
+  {
+    "context": "Ele abriu a porta da geladeira e",
+    "choices": [
+      " pegou uma garrafa de água.",
+      " começou a pintar a parede.",
+      " ligou para o vizinho dormir.",
+      " escreveu um livro de poesia."
+    ],
+    "answer": 0
+  },
+  {
+    "context": "Ela apertou o botão do elevador e",
+    "choices": [
+      " saiu correndo pela escada de incêndio.",
+      " começou a recitar Shakespeare.",
+      " esperou ele chegar ao andar.",
+      " desmontou o painel com uma chave."
+    ],
+    "answer": 2
+  },
+  {
+    "context": "O cachorro viu o carteiro e",
+    "choices": [
+      " ofereceu uma xícara de café.",
+      " começou a latir alto.",
+      " sentou e leu o jornal.",
+      " tirou uma foto com o celular."
+    ],
+    "answer": 1
+  }
+]
