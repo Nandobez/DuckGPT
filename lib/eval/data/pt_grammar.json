@@ -1,0 +1,42 @@
+[
+  {
+    "category": "concordancia_nominal",
+    "choices": ["As meninas bonitas chegaram cedo.", "As menina bonita chegaram cedo."],
+    "answer": 0
+  },
+  {
+    "category": "concordancia_nominal",
+    "choices": ["Os livros antigos estavam empilhados.", "Os livros antigo estava empilhados."],
+    "answer": 0
+  },
+  {
+    "category": "concordancia_verbal",
+    "choices": ["Os alunos estudaram para a prova.", "Os alunos estudou para a prova."],
+    "answer": 0
+  },
+  {
+    "category": "concordancia_verbal",
+    "choices": ["Nós fomos ao mercado.", "Nós foi ao mercado."],
+    "answer": 0
+  },
+  {
+    "category": "regencia",
+    "choices": ["Ele assistiu ao filme.", "Ele assistiu o filme."],
+    "answer": 0
+  },
+  {
+    "category": "crase",
+    "choices": ["Vou à praia.", "Vou a praia."],
+    "answer": 0
+  },
+  {
+    "category": "ortografia",
+    "choices": ["A excessão confirma a regra.", "A exceção confirma a regra."],
+    "answer": 1
+  },
+  {
+    "category": "ortografia",
+    "choices": ["Ele trousse o livro hoje.", "Ele trouxe o livro hoje."],
+    "answer": 1
+  }
+]
