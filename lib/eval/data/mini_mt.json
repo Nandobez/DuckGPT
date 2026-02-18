@@ -1,0 +1,8 @@
+[
+  {"direction": "PT→EN", "prompt": "Translate to English: O gato dorme no sofá.\nEnglish:", "reference": "The cat is sleeping on the couch."},
+  {"direction": "PT→EN", "prompt": "Translate to English: Ela gosta de música clássica.\nEnglish:", "reference": "She likes classical music."},
+  {"direction": "PT→EN", "prompt": "Translate to English: Eu vou ao mercado amanhã.\nEnglish:", "reference": "I will go to the market tomorrow."},
+  {"direction": "EN→PT", "prompt": "Traduza para o português: The dog is barking loudly.\nPortuguês:", "reference": "O cachorro está latindo alto."},
+  {"direction": "EN→PT", "prompt": "Traduza para o português: I read a book yesterday.\nPortuguês:", "reference": "Eu li um livro ontem."},
+  {"direction": "EN→PT", "prompt": "Traduza para o português: The weather is nice today.\nPortuguês:", "reference": "O tempo está bom hoje."}
+]
