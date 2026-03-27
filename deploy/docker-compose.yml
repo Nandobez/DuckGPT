@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  duckgpt:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    image: duckgpt:local
+    ports:
+      - "8000:8000"
+    environment:
+      DUCKGPT_CKPT: /app/checkpoints/ckpt.pt
+      DUCKGPT_DEVICE: cpu
+    volumes:
+      - ../out-shakespeare-char:/app/checkpoints:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
